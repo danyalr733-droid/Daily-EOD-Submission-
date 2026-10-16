@@ -28,61 +28,93 @@ document.addEventListener('DOMContentLoaded', () => {
       name: 'Ahwatukee (Sample Office)',
       manager: 'Karen Mitchell (Sample OM)',
       providers: [
-        { id: 'p_ahw_1', name: 'Dr. Sarah Jenkins', specialty: 'Endodontist' },
-        { id: 'p_ahw_2', name: 'Dr. Marcus Vance', specialty: 'Oral Surgeon' },
-        { id: 'p_ahw_3', name: 'Dr. Emily Chen', specialty: 'Endodontist' }
+        { id: '101', num: '101', name: 'Dr. Sarah Jenkins', specialty: 'Endodontist' },
+        { id: '102', num: '102', name: 'Dr. Marcus Vance', specialty: 'Oral Surgeon' },
+        { id: '103', num: '103', name: 'Dr. Emily Chen', specialty: 'Endodontist' }
       ]
     },
     'chandler': {
       name: 'Chandler (Sample Office)',
       manager: 'David Reynolds (Sample OM)',
       providers: [
-        { id: 'p_chd_1', name: 'Dr. Robert Taylor', specialty: 'Oral Surgeon' },
-        { id: 'p_chd_2', name: 'Dr. Jessica Adams', specialty: 'Endodontist' },
-        { id: 'p_chd_3', name: 'Dr. Brian Lee', specialty: 'Oral Surgeon' }
+        { id: '101', num: '101', name: 'Dr. Robert Taylor', specialty: 'Oral Surgeon' },
+        { id: '102', num: '102', name: 'Dr. Jessica Adams', specialty: 'Endodontist' },
+        { id: '103', num: '103', name: 'Dr. Brian Lee', specialty: 'Oral Surgeon' }
       ]
     },
     'gilbert': {
       name: 'Gilbert (Sample Office)',
       manager: 'Lisa Hernandez (Sample OM)',
       providers: [
-        { id: 'p_glb_1', name: 'Dr. Michael Chang', specialty: 'Oral Surgeon' },
-        { id: 'p_glb_2', name: 'Dr. Amanda Brooks', specialty: 'Endodontist' },
-        { id: 'p_glb_3', name: 'Dr. Rachel Garcia', specialty: 'Endodontist' }
+        { id: '101', num: '101', name: 'Dr. Michael Chang', specialty: 'Oral Surgeon' },
+        { id: '102', num: '102', name: 'Dr. Amanda Brooks', specialty: 'Endodontist' },
+        { id: '103', num: '103', name: 'Dr. Rachel Garcia', specialty: 'Endodontist' }
       ]
     },
     'glendale': {
       name: 'Glendale (Sample Office)',
       manager: 'Thomas Moore (Sample OM)',
       providers: [
-        { id: 'p_gld_1', name: 'Dr. Kevin Patel', specialty: 'Oral Surgeon' },
-        { id: 'p_gld_2', name: 'Dr. Laura Martinez', specialty: 'Endodontist' }
+        { id: '101', num: '101', name: 'Dr. Kevin Patel', specialty: 'Oral Surgeon' },
+        { id: '102', num: '102', name: 'Dr. Laura Martinez', specialty: 'Endodontist' }
       ]
     },
     'mesa': {
       name: 'Mesa (Sample Office)',
       manager: 'Patricia Wilson (Sample OM)',
       providers: [
-        { id: 'p_msa_1', name: 'Dr. David Clark', specialty: 'Oral Surgeon' },
-        { id: 'p_msa_2', name: 'Dr. Christopher Scott', specialty: 'Endodontist' },
-        { id: 'p_msa_3', name: 'Dr. Nicole Turner', specialty: 'Oral Surgeon' }
+        { id: '101', num: '101', name: 'Dr. David Clark', specialty: 'Oral Surgeon' },
+        { id: '102', num: '102', name: 'Dr. Christopher Scott', specialty: 'Endodontist' },
+        { id: '103', num: '103', name: 'Dr. Nicole Turner', specialty: 'Oral Surgeon' }
       ]
     },
     'north-phoenix': {
       name: 'North Phoenix (Sample Office)',
       manager: 'James Anderson (Sample OM)',
       providers: [
-        { id: 'p_npx_1', name: 'Dr. William Harris', specialty: 'Endodontist' },
-        { id: 'p_npx_2', name: 'Dr. Stephanie White', specialty: 'Oral Surgeon' }
+        { id: '101', num: '101', name: 'Dr. William Harris', specialty: 'Endodontist' },
+        { id: '102', num: '102', name: 'Dr. Stephanie White', specialty: 'Oral Surgeon' }
       ]
     },
     'scottsdale': {
       name: 'Scottsdale (Sample Office)',
       manager: 'Angela Davis (Sample OM)',
       providers: [
-        { id: 'p_sct_1', name: 'Dr. Gregory Hall', specialty: 'Endodontist' },
-        { id: 'p_sct_2', name: 'Dr. Samantha Bennett', specialty: 'Oral Surgeon' },
-        { id: 'p_sct_3', name: 'Dr. Andrew Miller', specialty: 'Endodontist' }
+        { id: '101', num: '101', name: 'Dr. Gregory Hall', specialty: 'Endodontist' },
+        { id: '102', num: '102', name: 'Dr. Samantha Bennett', specialty: 'Oral Surgeon' },
+        { id: '103', num: '103', name: 'Dr. Andrew Miller', specialty: 'Endodontist' }
+      ]
+    },
+    'peoria': {
+      name: 'Peoria (Sample Office)',
+      manager: 'Jessica Miller (Sample OM)',
+      providers: [
+        { id: '101', num: '101', name: 'Dr. Kimberly Adams', specialty: 'Endodontist' },
+        { id: '102', num: '102', name: 'Dr. Ryan Peterson', specialty: 'Oral Surgeon' }
+      ]
+    },
+    'surprise': {
+      name: 'Surprise (Sample Office)',
+      manager: 'Jennifer White (Sample OM)',
+      providers: [
+        { id: '101', num: '101', name: 'Dr. Joseph Diaz', specialty: 'Oral Surgeon' },
+        { id: '102', num: '102', name: 'Dr. Christine Kelly', specialty: 'Endodontist' }
+      ]
+    },
+    'tempe': {
+      name: 'Tempe (Sample Office)',
+      manager: 'Melissa Green (Sample OM)',
+      providers: [
+        { id: '101', num: '101', name: 'Dr. Daniel Wood', specialty: 'Endodontist' },
+        { id: '102', num: '102', name: 'Dr. Kelly Rogers', specialty: 'Oral Surgeon' }
+      ]
+    },
+    'goodyear': {
+      name: 'Goodyear (Sample Office)',
+      manager: 'Brian Scott (Sample OM)',
+      providers: [
+        { id: '101', num: '101', name: 'Dr. Brandon Hill', specialty: 'Oral Surgeon' },
+        { id: '102', num: '102', name: 'Dr. Natalie Hughes', specialty: 'Endodontist' }
       ]
     }
   };
@@ -315,6 +347,33 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Production & Adjustments inputs for automatic Net Production calculation
+  const evProductionInput = document.getElementById('evProduction');
+  const evAdjustmentsInput = document.getElementById('evAdjustments');
+  const evNetProductionInput = document.getElementById('evNetProduction');
+
+  function calculateNetProduction() {
+    const prod = parseCurrencyValue(evProductionInput ? evProductionInput.value : 0);
+    const adj = parseCurrencyValue(evAdjustmentsInput ? evAdjustmentsInput.value : 0);
+    const netProd = prod + adj;
+    if (evNetProductionInput) {
+      evNetProductionInput.value = formatAsCurrency(netProd);
+    }
+    return netProd;
+  }
+
+  if (evProductionInput) {
+    evProductionInput.addEventListener('input', calculateNetProduction);
+    evProductionInput.addEventListener('blur', calculateNetProduction);
+    evProductionInput.addEventListener('change', calculateNetProduction);
+  }
+  if (evAdjustmentsInput) {
+    evAdjustmentsInput.addEventListener('input', calculateNetProduction);
+    evAdjustmentsInput.addEventListener('blur', calculateNetProduction);
+    evAdjustmentsInput.addEventListener('change', calculateNetProduction);
+  }
+  calculateNetProduction();
+
   endovisionFields.forEach(field => {
     // Select all text on focus for effortless replacement/typing
     field.addEventListener('focus', () => {
@@ -376,24 +435,24 @@ document.addEventListener('DOMContentLoaded', () => {
       select.innerHTML = '<option value="" selected>Select / Enter #</option>';
 
       if (providers && providers.length > 0) {
-        providers.forEach((p, idx) => {
+        providers.forEach((p) => {
           const opt = document.createElement('option');
           opt.value = p.id;
-          opt.textContent = `${101 + idx} - ${p.name}`;
-          if (p.id === currentVal) opt.selected = true;
+          opt.textContent = `${p.num || p.id} - ${p.name}`;
+          if (p.id === currentVal || (p.num && p.num === currentVal)) opt.selected = true;
           select.appendChild(opt);
         });
       } else {
         const defaultSample = [
-          { id: '101', name: '101 - Dr. Sarah Jenkins' },
-          { id: '102', name: '102 - Dr. Marcus Vance' },
-          { id: '103', name: '103 - Dr. Emily Chen' }
+          { id: '101', num: '101', name: 'Dr. Sarah Jenkins' },
+          { id: '102', num: '102', name: 'Dr. Marcus Vance' },
+          { id: '103', num: '103', name: 'Dr. Emily Chen' }
         ];
-        defaultSample.forEach(item => {
+        defaultSample.forEach(p => {
           const opt = document.createElement('option');
-          opt.value = item.id;
-          opt.textContent = item.name;
-          if (item.id === currentVal) opt.selected = true;
+          opt.value = p.id;
+          opt.textContent = `${p.num} - ${p.name}`;
+          if (p.id === currentVal || p.num === currentVal) opt.selected = true;
           select.appendChild(opt);
         });
       }
