@@ -89,6 +89,10 @@
               <option value="mesa">Mesa (Sample Office)</option>
               <option value="north-phoenix">North Phoenix (Sample Office)</option>
               <option value="scottsdale">Scottsdale (Sample Office)</option>
+              <option value="peoria">Peoria (Sample Office)</option>
+              <option value="surprise">Surprise (Sample Office)</option>
+              <option value="tempe">Tempe (Sample Office)</option>
+              <option value="goodyear">Goodyear (Sample Office)</option>
             </select>
             <div class="field-error-feedback text-danger d-none" id="officeLocationError"><i class="bi bi-exclamation-circle-fill me-1"></i>Please select location.</div>
           </div>
@@ -172,7 +176,7 @@
                 <div class="endovision-input-wrapper">
                   <div class="currency-input-group" style="background-color: #ffffff;">
                     <span class="currency-symbol fw-bold" style="color: #003865;">$</span>
-                    <input type="text" id="evNetProduction" name="endovision_net_production" class="currency-control ev-currency-field fw-bold" value="0.00" inputmode="decimal" placeholder="0.00" aria-label="EndoVision Net Production" style="color: #003865;">
+                    <input type="text" id="evNetProduction" name="endovision_net_production" class="currency-control ev-currency-field fw-bold" value="0.00" inputmode="decimal" placeholder="0.00" aria-label="EndoVision Net Production" style="color: #003865;" readonly>
                   </div>
                 </div>
               </div>
@@ -1467,11 +1471,16 @@
             </div>
           </div>
         </div>
-        <div class="modal-footer py-2 px-3">
-          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary btn-sm" id="btnResetDemo" style="background-color: #00478f; border-color: #00478f;">
-            <i class="bi bi-arrow-counterclockwise"></i> Reset Form for New Demo
-          </button>
+        <div class="modal-footer py-2 px-3 d-flex justify-content-between align-items-center">
+          <a href="Valley_Endodontics_Master_EOD_Reconciliation.xlsx" download="Valley_Endodontics_Master_EOD_Reconciliation.xlsx" class="btn btn-outline-success btn-sm" id="btnDownloadWorkbook" title="Download Master Excel Workbook">
+            <i class="bi bi-file-earmark-excel-fill me-1"></i> Master Excel Workbook (.xlsx)
+          </a>
+          <div class="d-flex gap-2">
+            <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary btn-sm" id="btnResetDemo" style="background-color: #00478f; border-color: #00478f;">
+              <i class="bi bi-arrow-counterclockwise"></i> Reset Form for New Demo
+            </button>
+          </div>
         </div>
       </div>
     </div>

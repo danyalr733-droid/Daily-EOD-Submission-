@@ -28,61 +28,93 @@ document.addEventListener('DOMContentLoaded', () => {
       name: 'Ahwatukee (Sample Office)',
       manager: 'Karen Mitchell (Sample OM)',
       providers: [
-        { id: 'p_ahw_1', name: 'Dr. Sarah Jenkins', specialty: 'Endodontist' },
-        { id: 'p_ahw_2', name: 'Dr. Marcus Vance', specialty: 'Oral Surgeon' },
-        { id: 'p_ahw_3', name: 'Dr. Emily Chen', specialty: 'Endodontist' }
+        { id: '101', num: '101', name: 'Dr. Sarah Jenkins', specialty: 'Endodontist' },
+        { id: '102', num: '102', name: 'Dr. Marcus Vance', specialty: 'Oral Surgeon' },
+        { id: '103', num: '103', name: 'Dr. Emily Chen', specialty: 'Endodontist' }
       ]
     },
     'chandler': {
       name: 'Chandler (Sample Office)',
       manager: 'David Reynolds (Sample OM)',
       providers: [
-        { id: 'p_chd_1', name: 'Dr. Robert Taylor', specialty: 'Oral Surgeon' },
-        { id: 'p_chd_2', name: 'Dr. Jessica Adams', specialty: 'Endodontist' },
-        { id: 'p_chd_3', name: 'Dr. Brian Lee', specialty: 'Oral Surgeon' }
+        { id: '101', num: '101', name: 'Dr. Robert Taylor', specialty: 'Oral Surgeon' },
+        { id: '102', num: '102', name: 'Dr. Jessica Adams', specialty: 'Endodontist' },
+        { id: '103', num: '103', name: 'Dr. Brian Lee', specialty: 'Oral Surgeon' }
       ]
     },
     'gilbert': {
       name: 'Gilbert (Sample Office)',
       manager: 'Lisa Hernandez (Sample OM)',
       providers: [
-        { id: 'p_glb_1', name: 'Dr. Michael Chang', specialty: 'Oral Surgeon' },
-        { id: 'p_glb_2', name: 'Dr. Amanda Brooks', specialty: 'Endodontist' },
-        { id: 'p_glb_3', name: 'Dr. Rachel Garcia', specialty: 'Endodontist' }
+        { id: '101', num: '101', name: 'Dr. Michael Chang', specialty: 'Oral Surgeon' },
+        { id: '102', num: '102', name: 'Dr. Amanda Brooks', specialty: 'Endodontist' },
+        { id: '103', num: '103', name: 'Dr. Rachel Garcia', specialty: 'Endodontist' }
       ]
     },
     'glendale': {
       name: 'Glendale (Sample Office)',
       manager: 'Thomas Moore (Sample OM)',
       providers: [
-        { id: 'p_gld_1', name: 'Dr. Kevin Patel', specialty: 'Oral Surgeon' },
-        { id: 'p_gld_2', name: 'Dr. Laura Martinez', specialty: 'Endodontist' }
+        { id: '101', num: '101', name: 'Dr. Kevin Patel', specialty: 'Oral Surgeon' },
+        { id: '102', num: '102', name: 'Dr. Laura Martinez', specialty: 'Endodontist' }
       ]
     },
     'mesa': {
       name: 'Mesa (Sample Office)',
       manager: 'Patricia Wilson (Sample OM)',
       providers: [
-        { id: 'p_msa_1', name: 'Dr. David Clark', specialty: 'Oral Surgeon' },
-        { id: 'p_msa_2', name: 'Dr. Christopher Scott', specialty: 'Endodontist' },
-        { id: 'p_msa_3', name: 'Dr. Nicole Turner', specialty: 'Oral Surgeon' }
+        { id: '101', num: '101', name: 'Dr. David Clark', specialty: 'Oral Surgeon' },
+        { id: '102', num: '102', name: 'Dr. Christopher Scott', specialty: 'Endodontist' },
+        { id: '103', num: '103', name: 'Dr. Nicole Turner', specialty: 'Oral Surgeon' }
       ]
     },
     'north-phoenix': {
       name: 'North Phoenix (Sample Office)',
       manager: 'James Anderson (Sample OM)',
       providers: [
-        { id: 'p_npx_1', name: 'Dr. William Harris', specialty: 'Endodontist' },
-        { id: 'p_npx_2', name: 'Dr. Stephanie White', specialty: 'Oral Surgeon' }
+        { id: '101', num: '101', name: 'Dr. William Harris', specialty: 'Endodontist' },
+        { id: '102', num: '102', name: 'Dr. Stephanie White', specialty: 'Oral Surgeon' }
       ]
     },
     'scottsdale': {
       name: 'Scottsdale (Sample Office)',
       manager: 'Angela Davis (Sample OM)',
       providers: [
-        { id: 'p_sct_1', name: 'Dr. Gregory Hall', specialty: 'Endodontist' },
-        { id: 'p_sct_2', name: 'Dr. Samantha Bennett', specialty: 'Oral Surgeon' },
-        { id: 'p_sct_3', name: 'Dr. Andrew Miller', specialty: 'Endodontist' }
+        { id: '101', num: '101', name: 'Dr. Gregory Hall', specialty: 'Endodontist' },
+        { id: '102', num: '102', name: 'Dr. Samantha Bennett', specialty: 'Oral Surgeon' },
+        { id: '103', num: '103', name: 'Dr. Andrew Miller', specialty: 'Endodontist' }
+      ]
+    },
+    'peoria': {
+      name: 'Peoria (Sample Office)',
+      manager: 'Jessica Miller (Sample OM)',
+      providers: [
+        { id: '101', num: '101', name: 'Dr. Kimberly Adams', specialty: 'Endodontist' },
+        { id: '102', num: '102', name: 'Dr. Ryan Peterson', specialty: 'Oral Surgeon' }
+      ]
+    },
+    'surprise': {
+      name: 'Surprise (Sample Office)',
+      manager: 'Jennifer White (Sample OM)',
+      providers: [
+        { id: '101', num: '101', name: 'Dr. Joseph Diaz', specialty: 'Oral Surgeon' },
+        { id: '102', num: '102', name: 'Dr. Christine Kelly', specialty: 'Endodontist' }
+      ]
+    },
+    'tempe': {
+      name: 'Tempe (Sample Office)',
+      manager: 'Melissa Green (Sample OM)',
+      providers: [
+        { id: '101', num: '101', name: 'Dr. Daniel Wood', specialty: 'Endodontist' },
+        { id: '102', num: '102', name: 'Dr. Kelly Rogers', specialty: 'Oral Surgeon' }
+      ]
+    },
+    'goodyear': {
+      name: 'Goodyear (Sample Office)',
+      manager: 'Brian Scott (Sample OM)',
+      providers: [
+        { id: '101', num: '101', name: 'Dr. Brandon Hill', specialty: 'Oral Surgeon' },
+        { id: '102', num: '102', name: 'Dr. Natalie Hughes', specialty: 'Endodontist' }
       ]
     }
   };
@@ -315,6 +347,33 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Production & Adjustments inputs for automatic Net Production calculation
+  const evProductionInput = document.getElementById('evProduction');
+  const evAdjustmentsInput = document.getElementById('evAdjustments');
+  const evNetProductionInput = document.getElementById('evNetProduction');
+
+  function calculateNetProduction() {
+    const prod = parseCurrencyValue(evProductionInput ? evProductionInput.value : 0);
+    const adj = parseCurrencyValue(evAdjustmentsInput ? evAdjustmentsInput.value : 0);
+    const netProd = prod + adj;
+    if (evNetProductionInput) {
+      evNetProductionInput.value = formatAsCurrency(netProd);
+    }
+    return netProd;
+  }
+
+  if (evProductionInput) {
+    evProductionInput.addEventListener('input', calculateNetProduction);
+    evProductionInput.addEventListener('blur', calculateNetProduction);
+    evProductionInput.addEventListener('change', calculateNetProduction);
+  }
+  if (evAdjustmentsInput) {
+    evAdjustmentsInput.addEventListener('input', calculateNetProduction);
+    evAdjustmentsInput.addEventListener('blur', calculateNetProduction);
+    evAdjustmentsInput.addEventListener('change', calculateNetProduction);
+  }
+  calculateNetProduction();
+
   endovisionFields.forEach(field => {
     // Select all text on focus for effortless replacement/typing
     field.addEventListener('focus', () => {
@@ -376,24 +435,24 @@ document.addEventListener('DOMContentLoaded', () => {
       select.innerHTML = '<option value="" selected>Select / Enter #</option>';
 
       if (providers && providers.length > 0) {
-        providers.forEach((p, idx) => {
+        providers.forEach((p) => {
           const opt = document.createElement('option');
           opt.value = p.id;
-          opt.textContent = `${101 + idx} - ${p.name}`;
-          if (p.id === currentVal) opt.selected = true;
+          opt.textContent = `${p.num || p.id} - ${p.name}`;
+          if (p.id === currentVal || (p.num && p.num === currentVal)) opt.selected = true;
           select.appendChild(opt);
         });
       } else {
         const defaultSample = [
-          { id: '101', name: '101 - Dr. Sarah Jenkins' },
-          { id: '102', name: '102 - Dr. Marcus Vance' },
-          { id: '103', name: '103 - Dr. Emily Chen' }
+          { id: '101', num: '101', name: 'Dr. Sarah Jenkins' },
+          { id: '102', num: '102', name: 'Dr. Marcus Vance' },
+          { id: '103', num: '103', name: 'Dr. Emily Chen' }
         ];
-        defaultSample.forEach(item => {
+        defaultSample.forEach(p => {
           const opt = document.createElement('option');
-          opt.value = item.id;
-          opt.textContent = item.name;
-          if (item.id === currentVal) opt.selected = true;
+          opt.value = p.id;
+          opt.textContent = `${p.num} - ${p.name}`;
+          if (p.id === currentVal || p.num === currentVal) opt.selected = true;
           select.appendChild(opt);
         });
       }
@@ -533,7 +592,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const exceptionDetailsBox = document.getElementById('exceptionDetailsBox');
   const exceptionVarianceSymbol = document.getElementById('exceptionVarianceSymbol');
   const exceptionVarianceAmount = document.getElementById('exceptionVarianceAmount');
-  const varianceExplanationInput = document.getElementById('varianceExplanation');
+  let currentReconciliation = {
+    totalEODReceipts: 0,
+    endoNetCollections: 0,
+    variance: 0,
+    isBalanced: true
+  };
 
   function calculateReconciliationSummary() {
     // 1. Calculate Total EOD Receipts by summing all Section 3 payment amount inputs
@@ -550,6 +614,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Variance = Total EOD Receipts - EndoVision Net Collections
     const variance = totalEODReceipts - endoNetCollections;
     const isBalanced = Math.abs(variance) < 0.005;
+
+    currentReconciliation = {
+      totalEODReceipts,
+      endoNetCollections,
+      variance,
+      isBalanced
+    };
 
     // 4. Update Section 3 Total Receipts summary display
     if (sec3TotalReceiptsInput) {
@@ -585,6 +656,8 @@ document.addEventListener('DOMContentLoaded', () => {
       if (exceptionVarianceAmount) exceptionVarianceAmount.value = '0.00';
       if (varianceExplanationInput) {
         varianceExplanationInput.required = false;
+        varianceExplanationInput.classList.remove('is-invalid');
+        document.getElementById('varianceExplanationError')?.classList.add('d-none');
       }
     } else {
       // Exception State (Non-zero variance)
@@ -611,6 +684,8 @@ document.addEventListener('DOMContentLoaded', () => {
         varianceExplanationInput.required = true;
       }
     }
+
+    return currentReconciliation;
   }
 
   // Bind Section 2 Net Collections field to update reconciliation immediately
@@ -867,30 +942,400 @@ document.addEventListener('DOMContentLoaded', () => {
   calculateTotalPatientPayments();
 
   // ==========================================================================
-  // 5. PRESERVED WORKFLOW: SECTION 6 SUPPORTING DOCUMENTATION UPLOADS
+  // 8. SECTION 5: DAILY CONTROL QUESTIONS INTERACTION & VALIDATION
   // ==========================================================================
-  const uploadButtons = document.querySelectorAll('.btn-upload-file');
-  uploadButtons.forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.preventDefault();
-      const parentCard = btn.closest('.upload-card');
-      const hiddenInput = parentCard.querySelector('input[type="file"]');
-      if (hiddenInput) {
-        hiddenInput.click();
+  const controlRadios = document.querySelectorAll('input[type="radio"][name^="control_q"]');
+  controlRadios.forEach(radio => {
+    radio.addEventListener('change', () => {
+      const qGroup = radio.closest('.control-question-item');
+      if (qGroup) {
+        qGroup.classList.remove('has-error');
+        const err = qGroup.querySelector('.control-q-error');
+        if (err) err.classList.add('d-none');
       }
     });
   });
 
-  const fileInputs = document.querySelectorAll('.upload-card input[type="file"]');
-  fileInputs.forEach(input => {
-    input.addEventListener('change', () => {
-      const parentCard = input.closest('.upload-card');
-      const hint = parentCard.querySelector('.upload-hint');
-      if (input.files && input.files.length > 0) {
-        hint.textContent = `Selected: ${input.files[0].name} (${(input.files[0].size / 1024).toFixed(1)} KB)`;
-        hint.style.color = '#00478f';
-        hint.style.fontWeight = '600';
+  // ==========================================================================
+  // 9. SECTION 6: SUPPORTING DOCUMENTATION UPLOAD & CLEAR WORKFLOW
+  // ==========================================================================
+  const uploadCards = document.querySelectorAll('.upload-card');
+  uploadCards.forEach(card => {
+    const fileInput = card.querySelector('input[type="file"]');
+    const uploadBtn = card.querySelector('.btn-upload-file');
+    const clearBtn = card.querySelector('.btn-clear-file');
+    const hint = card.querySelector('.upload-hint');
+    const err = card.querySelector('.upload-error-feedback');
+
+    if (uploadBtn && fileInput) {
+      uploadBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        fileInput.click();
+      });
+    }
+
+    if (fileInput) {
+      fileInput.addEventListener('change', () => {
+        if (fileInput.files && fileInput.files.length > 0) {
+          const file = fileInput.files[0];
+          const sizeKb = (file.size / 1024).toFixed(1);
+          if (hint) {
+            hint.textContent = `Selected: ${file.name} (${sizeKb} KB)`;
+            hint.classList.add('has-file');
+          }
+          if (clearBtn) clearBtn.classList.remove('d-none');
+          if (card) card.classList.remove('has-error');
+          if (err) err.classList.add('d-none');
+        }
+      });
+    }
+
+    if (clearBtn && fileInput) {
+      clearBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        fileInput.value = '';
+        if (hint) {
+          hint.textContent = 'PDF, Excel, or Image (Max 10MB)';
+          hint.classList.remove('has-file');
+        }
+        clearBtn.classList.add('d-none');
+        if (card) card.classList.remove('has-error');
+        if (err) err.classList.add('d-none');
+      });
+    }
+  });
+
+  // ==========================================================================
+  // 10. REAL-TIME ERROR CLEARANCE ON USER INPUT
+  // ==========================================================================
+  const sec1Date = document.getElementById('eodDate');
+  const sec1Loc = document.getElementById('officeLocation');
+  const sec1Mgr = document.getElementById('officeManager');
+  const sec1Sub = document.getElementById('submittedBy');
+
+  if (sec1Date) {
+    sec1Date.addEventListener('input', () => {
+      sec1Date.classList.remove('is-invalid');
+      document.getElementById('eodDateError')?.classList.add('d-none');
+    });
+  }
+  if (sec1Loc) {
+    sec1Loc.addEventListener('change', () => {
+      sec1Loc.classList.remove('is-invalid');
+      document.getElementById('officeLocationError')?.classList.add('d-none');
+    });
+  }
+  if (sec1Mgr) {
+    sec1Mgr.addEventListener('input', () => {
+      sec1Mgr.classList.remove('is-invalid');
+      document.getElementById('officeManagerError')?.classList.add('d-none');
+    });
+  }
+  if (sec1Sub) {
+    sec1Sub.addEventListener('input', () => {
+      sec1Sub.classList.remove('is-invalid');
+      document.getElementById('submittedByError')?.classList.add('d-none');
+    });
+  }
+
+  if (varianceExplanationInput) {
+    varianceExplanationInput.addEventListener('input', () => {
+      varianceExplanationInput.classList.remove('is-invalid');
+      document.getElementById('varianceExplanationError')?.classList.add('d-none');
+    });
+  }
+
+  const certifyCheckbox = document.getElementById('certifyCheckbox');
+  const certWrapper = document.getElementById('certWrapper');
+  const certError = document.getElementById('certError');
+  if (certifyCheckbox) {
+    certifyCheckbox.addEventListener('change', () => {
+      if (certifyCheckbox.checked) {
+        if (certWrapper) certWrapper.classList.remove('has-error');
+        if (certError) certError.classList.add('d-none');
       }
     });
-  });
+  }
+
+  // ==========================================================================
+  // 11. SECTION 7: VALIDATION ENGINE & DEMO SUBMISSION CONFIRMATION
+  // ==========================================================================
+  const btnSubmitEOD = document.getElementById('btnSubmitEOD');
+  const submissionComments = document.getElementById('submissionComments');
+
+  function validateEODForm() {
+    const errors = [];
+
+    // 1. Section 1: Location Information
+    if (!sec1Date || !sec1Date.value) {
+      if (sec1Date) sec1Date.classList.add('is-invalid');
+      document.getElementById('eodDateError')?.classList.remove('d-none');
+      errors.push({ element: sec1Date, message: 'Reporting Date is required.' });
+    }
+
+    if (!sec1Loc || !sec1Loc.value) {
+      if (sec1Loc) sec1Loc.classList.add('is-invalid');
+      document.getElementById('officeLocationError')?.classList.remove('d-none');
+      errors.push({ element: sec1Loc, message: 'Office Location is required.' });
+    }
+
+    if (!sec1Mgr || !sec1Mgr.value.trim()) {
+      if (sec1Mgr) sec1Mgr.classList.add('is-invalid');
+      document.getElementById('officeManagerError')?.classList.remove('d-none');
+      errors.push({ element: sec1Mgr, message: 'Office Manager is required.' });
+    }
+
+    if (!sec1Sub || !sec1Sub.value.trim()) {
+      if (sec1Sub) sec1Sub.classList.add('is-invalid');
+      document.getElementById('submittedByError')?.classList.remove('d-none');
+      errors.push({ element: sec1Sub, message: 'Submitted By name is required.' });
+    }
+
+    // 2. Section 4: If Exception, Explanation is required
+    calculateReconciliationSummary();
+    if (!currentReconciliation.isBalanced) {
+      if (!varianceExplanationInput || !varianceExplanationInput.value.trim()) {
+        if (varianceExplanationInput) varianceExplanationInput.classList.add('is-invalid');
+        document.getElementById('varianceExplanationError')?.classList.remove('d-none');
+        errors.push({ element: varianceExplanationInput, message: 'Explanation of variance is required.' });
+      }
+    }
+
+    // 3. Section 5: Daily Control Questions (all 4 are required)
+    for (let i = 1; i <= 4; i++) {
+      const selected = document.querySelector(`input[name="control_q${i}"]:checked`);
+      const qGroup = document.getElementById(`qGroup${i}`);
+      const qErr = document.getElementById(`qError${i}`);
+      if (!selected) {
+        if (qGroup) qGroup.classList.add('has-error');
+        if (qErr) qErr.classList.remove('d-none');
+        const firstRadio = document.getElementById(`q${i}_yes`);
+        errors.push({ element: firstRadio || qGroup, message: `Question ${i} must be answered.` });
+      } else {
+        if (qGroup) qGroup.classList.remove('has-error');
+        if (qErr) qErr.classList.add('d-none');
+      }
+    }
+
+    // 4. Section 6: Required Supporting Documentation (Uploads 1, 2, 3)
+    const requiredDocs = [
+      { id: 'fileEndoReport', cardId: 'cardFileEndoReport', errId: 'fileEndoReportError', name: 'EndoVision Daily Report' },
+      { id: 'fileBalanceSheet', cardId: 'cardFileBalanceSheet', errId: 'fileBalanceSheetError', name: 'Daily Balance Sheet / EOD Worksheet' },
+      { id: 'fileSettlementSupport', cardId: 'cardFileSettlementSupport', errId: 'fileSettlementSupportError', name: 'Deposit / Merchant Settlement Support' }
+    ];
+
+    requiredDocs.forEach(doc => {
+      const input = document.getElementById(doc.id);
+      const card = document.getElementById(doc.cardId);
+      const err = document.getElementById(doc.errId);
+      const btn = card ? card.querySelector('.btn-upload-file') : null;
+
+      if (!input || !input.files || input.files.length === 0) {
+        if (card) card.classList.add('has-error');
+        if (err) err.classList.remove('d-none');
+        errors.push({ element: btn || card, message: `Missing required document: ${doc.name}` });
+      } else {
+        if (card) card.classList.remove('has-error');
+        if (err) err.classList.add('d-none');
+      }
+    });
+
+    // 5. Section 7: Certification Checkbox
+    if (!certifyCheckbox || !certifyCheckbox.checked) {
+      if (certWrapper) certWrapper.classList.add('has-error');
+      if (certError) certError.classList.remove('d-none');
+      errors.push({ element: certifyCheckbox || certWrapper, message: 'Certification checkbox is required.' });
+    } else {
+      if (certWrapper) certWrapper.classList.remove('has-error');
+      if (certError) certError.classList.add('d-none');
+    }
+
+    return errors;
+  }
+
+  function populateSubmissionSummary() {
+    const summaryReportDate = document.getElementById('summaryReportDate');
+    const summaryTimestamp = document.getElementById('summaryTimestamp');
+    const summaryLocation = document.getElementById('summaryLocation');
+    const summaryManager = document.getElementById('summaryManager');
+    const summarySubmittedBy = document.getElementById('summarySubmittedBy');
+    const summaryProviders = document.getElementById('summaryProviders');
+    const summaryEndo = document.getElementById('summaryEndo');
+    const summaryReceipts = document.getElementById('summaryReceipts');
+    const summaryVariance = document.getElementById('summaryVariance');
+    const summaryReconcileStatus = document.getElementById('summaryReconcileStatus');
+    const summaryVarianceExplanationRow = document.getElementById('summaryVarianceExplanationRow');
+    const summaryVarianceExplanation = document.getElementById('summaryVarianceExplanation');
+    const summaryControlQuestions = document.getElementById('summaryControlQuestions');
+    const summaryDocuments = document.getElementById('summaryDocuments');
+    const summaryCommentsRow = document.getElementById('summaryCommentsRow');
+    const summaryComments = document.getElementById('summaryComments');
+
+    if (summaryReportDate) summaryReportDate.textContent = sec1Date?.value || '—';
+    if (summaryTimestamp) {
+      summaryTimestamp.textContent = new Date().toLocaleString('en-US', {
+        dateStyle: 'medium',
+        timeStyle: 'medium'
+      });
+    }
+    if (summaryLocation) {
+      summaryLocation.textContent = sec1Loc?.options[sec1Loc.selectedIndex]?.text || '—';
+    }
+    if (summaryManager) summaryManager.textContent = sec1Mgr?.value || '—';
+    if (summarySubmittedBy) summarySubmittedBy.textContent = sec1Sub?.value || '—';
+
+    if (summaryProviders) {
+      if (selectedProviderIds && selectedProviderIds.size > 0 && currentOfficeProviders) {
+        const names = currentOfficeProviders
+          .filter(p => selectedProviderIds.has(p.id))
+          .map(p => p.name);
+        summaryProviders.textContent = names.join(', ');
+      } else {
+        summaryProviders.textContent = 'None specified (All Clinic Providers)';
+      }
+    }
+
+    if (summaryEndo) summaryEndo.textContent = `$ ${formatAsCurrency(currentReconciliation.endoNetCollections)}`;
+    if (summaryReceipts) summaryReceipts.textContent = `$ ${formatAsCurrency(currentReconciliation.totalEODReceipts)}`;
+    
+    if (summaryVariance) {
+      const sign = currentReconciliation.variance < 0 ? '-$' : (currentReconciliation.variance > 0 ? '+$' : '$');
+      summaryVariance.textContent = `${sign} ${formatAsCurrency(Math.abs(currentReconciliation.variance))}`;
+      summaryVariance.style.color = currentReconciliation.isBalanced ? '#16a34a' : '#dc2626';
+    }
+
+    if (summaryReconcileStatus) {
+      if (currentReconciliation.isBalanced) {
+        summaryReconcileStatus.className = 'badge bg-success';
+        summaryReconcileStatus.textContent = 'Balanced ($0 variance)';
+      } else {
+        summaryReconcileStatus.className = 'badge bg-danger';
+        summaryReconcileStatus.textContent = 'Exception — Variance Requires Review';
+      }
+    }
+
+    if (summaryVarianceExplanationRow && summaryVarianceExplanation) {
+      if (!currentReconciliation.isBalanced && varianceExplanationInput && varianceExplanationInput.value.trim()) {
+        summaryVarianceExplanationRow.style.display = 'block';
+        summaryVarianceExplanation.textContent = varianceExplanationInput.value.trim();
+      } else {
+        summaryVarianceExplanationRow.style.display = 'none';
+      }
+    }
+
+    if (summaryControlQuestions) {
+      summaryControlQuestions.innerHTML = '';
+      const qLabels = [
+        '1. All patient transactions entered into EndoVision',
+        '2. All claims submitted for the day',
+        '3. EOD reconciles to EndoVision Daily Report',
+        '4. Deposit / settlement support agrees with receipts'
+      ];
+      for (let i = 1; i <= 4; i++) {
+        const checked = document.querySelector(`input[name="control_q${i}"]:checked`);
+        const ans = checked ? (checked.value === 'yes' ? 'Yes' : 'No') : 'Unanswered';
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${qLabels[i-1]}:</strong> <span class="badge ${ans === 'Yes' ? 'bg-success' : 'bg-warning text-dark'}">${ans}</span>`;
+        summaryControlQuestions.appendChild(li);
+      }
+    }
+
+    if (summaryDocuments) {
+      summaryDocuments.innerHTML = '';
+      const docLabels = [
+        { id: 'fileEndoReport', name: 'EndoVision Daily Report' },
+        { id: 'fileBalanceSheet', name: 'Daily Balance Sheet / EOD Worksheet' },
+        { id: 'fileSettlementSupport', name: 'Deposit / Merchant Settlement Support' },
+        { id: 'fileOtherSupport', name: 'Other Supporting Documentation' }
+      ];
+      docLabels.forEach(d => {
+        const input = document.getElementById(d.id);
+        const li = document.createElement('li');
+        if (input && input.files && input.files.length > 0) {
+          const file = input.files[0];
+          const kb = (file.size / 1024).toFixed(1);
+          li.innerHTML = `<strong>${d.name}:</strong> ${file.name} (${kb} KB)`;
+        } else {
+          li.innerHTML = `<strong>${d.name}:</strong> <em class="text-muted">Not attached (Optional)</em>`;
+        }
+        summaryDocuments.appendChild(li);
+      });
+    }
+
+    if (summaryCommentsRow && summaryComments) {
+      if (submissionComments && submissionComments.value.trim()) {
+        summaryCommentsRow.style.display = 'block';
+        summaryComments.textContent = submissionComments.value.trim();
+      } else {
+        summaryCommentsRow.style.display = 'none';
+      }
+    }
+  }
+
+  if (btnSubmitEOD) {
+    btnSubmitEOD.addEventListener('click', (e) => {
+      e.preventDefault();
+
+      const validationErrors = validateEODForm();
+      if (validationErrors.length > 0) {
+        const firstErr = validationErrors[0];
+        if (firstErr.element) {
+          if (typeof firstErr.element.focus === 'function') {
+            firstErr.element.focus();
+          }
+          firstErr.element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+        return;
+      }
+
+      // Prevent repeated clicks during processing
+      const originalBtnHtml = btnSubmitEOD.innerHTML;
+      btnSubmitEOD.disabled = true;
+      btnSubmitEOD.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span> Submitting EOD...';
+
+      // Brief async frontend simulation
+      setTimeout(() => {
+        btnSubmitEOD.disabled = false;
+        btnSubmitEOD.innerHTML = originalBtnHtml;
+
+        populateSubmissionSummary();
+
+        const modalEl = document.getElementById('submissionModal');
+        if (modalEl && typeof bootstrap !== 'undefined' && bootstrap.Modal) {
+          const modalInstance = new bootstrap.Modal(modalEl);
+          modalInstance.show();
+        } else {
+          alert('Submission successful! (Frontend demo notice: No permanent record saved to server or database.)');
+        }
+      }, 400);
+    });
+  }
+
+  const btnResetDemo = document.getElementById('btnResetDemo');
+  if (btnResetDemo) {
+    btnResetDemo.addEventListener('click', () => {
+      controlRadios.forEach(r => { r.checked = false; });
+      uploadCards.forEach(card => {
+        const fileInput = card.querySelector('input[type="file"]');
+        const hint = card.querySelector('.upload-hint');
+        const clearBtn = card.querySelector('.btn-clear-file');
+        if (fileInput) fileInput.value = '';
+        if (hint) {
+          hint.textContent = 'PDF, Excel, or Image (Max 10MB)';
+          hint.classList.remove('has-file');
+        }
+        if (clearBtn) clearBtn.classList.add('d-none');
+        card.classList.remove('has-error');
+      });
+      if (certifyCheckbox) certifyCheckbox.checked = false;
+      if (submissionComments) submissionComments.value = '';
+
+      const modalEl = document.getElementById('submissionModal');
+      if (modalEl && typeof bootstrap !== 'undefined' && bootstrap.Modal) {
+        const instance = bootstrap.Modal.getInstance(modalEl);
+        if (instance) instance.hide();
+      }
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 });
