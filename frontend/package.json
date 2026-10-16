@@ -1,0 +1,13 @@
+{
+  "name": "valley-endodontics-eod",
+  "version": "1.0.0",
+  "description": "Valley Endodontics & Oral Surgery Daily EOD Submission & Master Reconciliation System",
+  "main": "js/script.js",
+  "scripts": {
+    "generate-workbook": "node scripts/generate_master_workbook.js",
+    "test": "node test/test_suite.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
